@@ -24,13 +24,15 @@
 
   .hero { min-height: 760px; height: auto; }
   .hero-ov { background: linear-gradient(to top, rgba(4,16,42,0.9) 12%, rgba(4,16,42,0.45) 58%, rgba(4,16,42,0.2) 100%); }
-  .hero-c { padding: 120px 0 80px; }
+  .hero-c { padding-top: 120px; padding-bottom: 80px; }
   .hero-inner { max-width: 100%; }
   .hero-sub, .hero-sup { max-width: 720px; }
 
   .phil-grid,
   .edge-grid,
   .ins-grid { grid-template-columns: 1fr; gap: 40px; }
+
+  .edge-img { aspect-ratio: 1/1; object-position: center bottom; max-height: 50vh; }
 
   .pillars { grid-template-columns: 1fr; gap: 24px; }
   .pillar, .pillar:last-child { padding: 0; }
@@ -53,7 +55,7 @@
   .nav-links a, .btn-nav { font-size: 10px; }
 
   .hero { min-height: 680px; }
-  .hero-c { padding: 88px 0 56px; }
+  .hero-c { padding-top: 88px; padding-bottom: 56px; }
   .hero h1 { line-height: 1.02; }
   .hero-sub { font-size: 16px; line-height: 1.6; }
   .hero-sup { font-size: 13px; line-height: 1.65; }
@@ -64,7 +66,7 @@
   .pcard,
   .eco-card { padding: 24px; }
 
-  .lead-grid,
+  .lead-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .pcards,
   .ep-grid,
   .foot-grid { grid-template-columns: 1fr; }
