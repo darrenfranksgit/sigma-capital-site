@@ -9,8 +9,11 @@ nav { background: var(--cream); border-bottom: 1px solid #e8e5df; position: stic
 .btn-nav:hover { background: var(--gold); }
 
 /* ── HAMBURGER ── */
-.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; z-index: 60; }
-.nav-toggle span { display: block; width: 22px; height: 2px; background: var(--navy); margin: 5px 0; transition: all 0.3s; transform-origin: center; }
-.nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle { display: none; background: none; border: none; cursor: pointer; width: 36px; height: 36px; position: relative; z-index: 60; }
+.nav-toggle span { display: block; width: 22px; height: 2px; background: var(--navy); position: absolute; left: 7px; transition: all 0.3s; transform-origin: center; }
+.nav-toggle span:nth-child(1) { top: 10px; }
+.nav-toggle span:nth-child(2) { top: 17px; }
+.nav-toggle span:nth-child(3) { top: 24px; }
+.nav-toggle.open span:nth-child(1) { top: 17px; transform: rotate(45deg); }
 .nav-toggle.open span:nth-child(2) { opacity: 0; }
-.nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.nav-toggle.open span:nth-child(3) { top: 17px; transform: rotate(-45deg); }
