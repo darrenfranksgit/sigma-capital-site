@@ -43,7 +43,7 @@
   .lead-grid { grid-template-columns: repeat(2, 1fr); }
   .ins-hd { flex-direction: column; align-items: flex-start; gap: 14px; }
   .side-card { gap: 18px; }
-  .foot-grid { grid-template-columns: repeat(2, 1fr); }
+  .foot-grid { grid-template-columns: 1fr; }
   .foot-nav { align-items: flex-start; }
 }
 
