@@ -1,0 +1,29 @@
+/* ── PORTFOLIO ── */
+.s-port { padding: 120px 0; background: var(--navy); }
+.port-hd { text-align: left; margin-bottom: 56px; }
+.port-hd h2 { font-size: clamp(38px, 3.8vw, 56px); font-weight: 300; color: #fff; margin-bottom: 20px; }
+.port-hd .port-sub { font-size: clamp(20px, 2vw, 30px); font-weight: 300; color: #fff; line-height: 1.2; margin-bottom: 16px; font-family: 'Newsreader', serif; }
+.port-hd .port-sub em { color: var(--gold-l); font-style: italic; }
+.port-hd p { font-size: 15.5px; line-height: 1.78; color: rgba(255,255,255,0.48); max-width: 620px; }
+.port-filters { display: flex; gap: 10px; justify-content: flex-start; margin-bottom: 48px; flex-wrap: wrap; }
+.pf {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+  padding: 8px 20px; border-radius: 99px; border: 1px solid rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.5); cursor: pointer; background: transparent;
+  transition: all 0.3s; font-family: 'Inter', sans-serif;
+}
+.pf:hover, .pf.on { border-color: var(--gold); color: var(--gold-l); }
+.pcards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pcard {
+  background: #ffffff; border-radius: 10px; padding: 32px 20px 24px;
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
+  cursor: pointer; transition: all 0.4s ease;
+}
+.pcard:hover { transform: translateY(-3px); box-shadow: 0 20px 48px rgba(0,0,0,0.28); }
+.pcard-logo { height: 56px; display: flex; align-items: center; justify-content: center; width: 100%; padding: 0 8px; }
+.pcard-logo img { max-height: 52px; max-width: 210px; width: auto; height: auto; object-fit: contain; display: block; }
+.pcard.is-hidden { opacity: 0; transform: scale(0.95); pointer-events: none; position: absolute; visibility: hidden; }
+.pcard-name { font-size: 15px; font-weight: 600; color: var(--navy); text-align: center; }
+.wm { font-family: 'Inter', sans-serif; text-align: center; line-height: 1.15; font-weight: 700; color: var(--navy); }
+.pcard-type { font-size: 10px; color: #999; text-align: center; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.1em; border-top: 1px solid #eee; padding-top: 12px; width: 100%; }
+.port-note { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.18em; color: rgba(255,255,255,0.22); margin-top: 44px; }

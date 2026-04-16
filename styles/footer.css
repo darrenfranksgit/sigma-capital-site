@@ -1,0 +1,19 @@
+/* ── FOOTER ── */
+footer { background: var(--navy); padding: 56px 0 0; }
+.foot-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.1); align-items: start; }
+.foot-brand { font-family: 'Newsreader', serif; font-size: 17px; font-weight: 700; letter-spacing: 0.22em; color: var(--cream); margin-bottom: 14px; }
+.foot-col { display: flex; flex-direction: column; gap: 14px; }
+.foot-col-lbl { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.22em; color: rgba(250,247,242,0.38); }
+.foot-email { font-size: 13px; color: rgba(250,247,242,0.75); text-decoration: none; transition: color 0.3s; }
+.foot-email:hover { color: var(--gold-l); }
+.foot-social { display: flex; gap: 16px; align-items: center; margin-top: 4px; }
+.foot-social-link { display: flex; align-items: center; gap: 7px; text-decoration: none; color: rgba(250,247,242,0.6); font-size: 12px; transition: color 0.3s; }
+.foot-social-link:hover { color: #fff; }
+.foot-social-sep { color: rgba(255,255,255,0.15); }
+.foot-locations { font-size: 12px; color: rgba(250,247,242,0.4); margin-top: 6px; }
+.foot-nav { display: flex; flex-direction: column; gap: 12px; align-items: flex-end; }
+.foot-nav-lbl { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.22em; color: rgba(250,247,242,0.38); }
+.foot-nav a { font-size: 11px; text-transform: uppercase; letter-spacing: 0.13em; color: rgba(250,247,242,0.48); text-decoration: none; transition: color 0.3s; }
+.foot-nav a:hover { color: var(--gold-l); }
+.foot-bottom { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; flex-wrap: wrap; gap: 12px; }
+.foot-copy { font-size: 10px; color: rgba(250,247,242,0.24); letter-spacing: 0.1em; }

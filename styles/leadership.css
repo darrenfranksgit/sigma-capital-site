@@ -1,0 +1,20 @@
+/* ── LEADERSHIP ── */
+.s-lead { padding: 120px 0; background: var(--cream2); }
+.s-lead h2 { font-size: clamp(36px, 3.4vw, 52px); font-weight: 300; color: var(--navy); margin-bottom: 56px; }
+.lead-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.badge-a { background: rgba(138,106,26,0.12); color: var(--gold); border: 1px solid rgba(138,106,26,0.3); }
+.badge-c { background: var(--navy); color: #fff; }
+.lcard-linkedin { display: inline-flex; align-items: center; margin-left: 7px; vertical-align: middle; opacity: 0.85; transition: opacity 0.2s; text-decoration: none; }
+.lcard-linkedin:hover { opacity: 1; }
+.lcard { display: flex; flex-direction: column; }
+.lcard-img {
+  position: relative; border-radius: 10px; overflow: hidden;
+  aspect-ratio: 4/5; margin-bottom: 16px;
+  background: linear-gradient(160deg, #191910 0%, #0e0e09 100%);
+}
+.lcard.founder .lcard-img { border: 1.5px solid var(--gold); }
+.lcard-sil { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+.lcard-sil svg { width: 50%; opacity: 0.2; }
+.lcard h4 { font-size: 17px; font-weight: 300; color: var(--navy); margin-bottom: 3px; }
+.lcard .role { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--gold); display: flex; align-items: center; margin-bottom: 8px; }
+.lcard p { font-size: 12.5px; line-height: 1.65; color: var(--muted); }

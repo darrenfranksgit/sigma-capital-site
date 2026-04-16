@@ -1,0 +1,20 @@
+/* ── ECOSYSTEM ── */
+.s-eco { padding: 120px 0; background: var(--cream2); }
+.s-eco h2 { font-size: clamp(34px, 3.2vw, 50px); font-weight: 300; color: var(--navy); margin-bottom: 28px; }
+.eco-intro { font-size: 16px; line-height: 1.82; color: var(--muted); max-width: 660px; margin-bottom: 60px; }
+
+/* Partners grid */
+.ep-wrap { margin-bottom: 72px; }
+.ep-tag { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--gold); margin-bottom: 32px; display: block; }
+.ep-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 40px 40px; align-items: center; }
+.ep-logo { display: flex; align-items: center; justify-content: center; height: 60px; }
+.ep-logo img { height: 44px; width: 120px; object-fit: contain; filter: grayscale(1); opacity: 0.6; mix-blend-mode: multiply; }
+
+/* Governance cards */
+.eco-cards { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); margin-top: 64px; }
+.eco-card { padding: 44px 36px; display: flex; flex-direction: column; gap: 10px; border-right: 1px solid var(--rule); }
+.eco-card:last-child { border-right: none; }
+.eco-tag { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--gold); }
+.eco-card a { font-family: 'Newsreader', serif; font-size: 21px; font-weight: 300; color: var(--navy); text-decoration: none; line-height: 1.2; transition: color 0.3s; }
+.eco-card a:hover { color: var(--gold); }
+.eco-card p { font-size: 13.5px; line-height: 1.75; color: var(--muted); }

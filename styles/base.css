@@ -1,0 +1,22 @@
+/* ── Reset & Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', sans-serif; background: var(--cream); color: #1c1c19; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4 { font-family: 'Newsreader', serif; }
+html { scroll-behavior: smooth; }
+
+.mi {
+  font-family: 'Material Symbols Outlined';
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+}
+
+.wrap { max-width: 1440px; margin: 0 auto; padding: 0 48px; }
+.gold-line { display: block; width: 48px; height: 1px; background: var(--gold); }
+
+/* Scroll-triggered fade-in */
+section.fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+section.fade-in.is-visible { opacity: 1; transform: translateY(0); }

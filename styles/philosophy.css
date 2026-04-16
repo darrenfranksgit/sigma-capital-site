@@ -1,0 +1,8 @@
+/* ── PHILOSOPHY ── */
+.s-phil { padding: 120px 0; background: var(--cream); }
+.s-phil h2 { font-size: clamp(36px, 3.2vw, 50px); font-weight: 300; color: var(--navy); margin-bottom: 56px; }
+.phil-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+.phil-card { display: flex; flex-direction: column; gap: 20px; }
+.phil-card.shaded { background: var(--cream2); padding: 48px; }
+.phil-card h3 { font-size: clamp(24px, 2.2vw, 34px); font-weight: 300; color: var(--navy); }
+.phil-card p { font-size: 15.5px; line-height: 1.84; color: var(--muted); }

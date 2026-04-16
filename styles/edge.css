@@ -1,0 +1,12 @@
+/* ── EDGE (What Sets Us Apart) ── */
+.s-edge { padding: 120px 0; background: var(--navy); }
+.edge-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 72px; align-items: center; }
+.edge-img { width: 100%; aspect-ratio: 4/5; object-fit: cover; filter: grayscale(1) brightness(0.52); display: block; }
+.edge-h { margin-bottom: 44px; }
+.edge-h h2 { font-size: clamp(36px, 3.8vw, 58px); font-weight: 300; color: #fff; }
+.pillars { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 40px; }
+.pillar { display: flex; flex-direction: column; gap: 14px; padding-right: 28px; }
+.pillar + .pillar { padding-left: 28px; border-left: 1px solid rgba(255,255,255,0.08); }
+.pillar:last-child { padding-right: 0; }
+.pillar h4 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--gold); font-family: 'Inter', sans-serif; font-weight: 700; }
+.pillar p { font-size: 13px; line-height: 1.8; color: rgba(255,255,255,0.52); }
