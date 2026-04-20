@@ -1,6 +1,9 @@
 /* ── LEADERSHIP ── */
 .s-lead { padding: 120px 0; background: var(--cream2); }
 .s-lead h2 { font-size: clamp(36px, 3.4vw, 52px); font-weight: 300; color: var(--navy); margin-bottom: 56px; }
+.lead-subhead { font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.22em; color: var(--gold); margin: 0 0 24px; }
+.lead-subhead + .lead-grid { margin-bottom: 56px; }
+.lead-subhead + .lead-grid:last-child { margin-bottom: 0; }
 .lead-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
 .badge-a { background: rgba(138,106,26,0.12); color: var(--gold); border: 1px solid rgba(138,106,26,0.3); }
 .badge-c { background: var(--navy); color: #fff; }
