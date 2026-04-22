@@ -32,6 +32,8 @@
   .edge-grid,
   .ins-grid { grid-template-columns: 1fr; gap: 40px; }
 
+  .phil-card.shaded { background: none; padding: 0; }
+
   .edge-img { aspect-ratio: 1/1; object-position: center bottom; max-height: 50vh; }
 
   .pillars { grid-template-columns: 1fr; gap: 24px; }
@@ -62,7 +64,6 @@
   .hero-ctas { flex-direction: column; align-items: flex-start; gap: 16px; }
 
   .s-phil, .s-edge, .s-lead, .s-port, .s-ins, .s-eco, footer { padding-top: 72px; padding-bottom: 72px; }
-  .phil-card.shaded,
   .pcard,
   .eco-card { padding: 24px; }
 
